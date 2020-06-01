@@ -26,7 +26,7 @@
         // VARIABLE CON EL TOTAL DE REGISTROS OBTENIDOS
         $num = $query->num_rows;
 
-       /* //VERIFICAMOS QUE EXISTE ALGUN REGISTRO
+       //VERIFICAMOS QUE EXISTE ALGUN REGISTRO
         if($num > 0) {
             
             // AGREGAMOS LOS VALORES AL ARRAY
@@ -40,7 +40,7 @@
         } else {
             // echo "No existe ese registro";
             echo "ERROR, no existe";
-        } */
+        }
     }
 
 ?>
