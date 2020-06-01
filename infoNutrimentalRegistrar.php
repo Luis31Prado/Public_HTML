@@ -21,7 +21,7 @@
 
     } else {
 
-        // CREAMOS LA CONSULTA
+        // CREAMOS LA CONSULTA DE LA INFO
         $sql = "INSERT INTO infonutrimental VALUES('', '$idproducto', '$grasasaturada', '$otrasgrasas', '$azucarestotales', '$sodio', '$energia', '$energiaporporcion')";
         $query = $mysqli->query($sql);
 
