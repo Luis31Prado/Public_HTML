@@ -2,7 +2,7 @@
 
     require("conexion.php");
 
-    // RECIBE LOS DATOS DE LA APP
+    // RECIBE LOS DATOS DE LA APLICACION
     $nombre = $_POST['nombre'];
     $codigobarras = $_POST['codigobarras'];
 
