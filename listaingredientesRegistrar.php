@@ -12,7 +12,7 @@
    // VERIFICAMOS QUE NO ESTEN VACIAS LAS VARIABLES
     if(empty($idproducto) || empty($ingredientes) || empty($vitaminas) || empty($minerales)) {
 
-        // SI ALGUNA VARIABLE ESTA VACIA MUESTRA ERROR
+        // SI ALGUNA VARIABLE ESTA VACIA MUESTRA ERROR //
         //echo "Se deben llenar los dos campos";
         echo "ERROR 1, campos vacios";
 
